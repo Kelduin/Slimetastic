@@ -12,9 +12,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Slime
+  - Koszyk
+  - Background
   - 
   - 
   - 
@@ -39,9 +39,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: New Layer 1
-    uniqueID: 3286872893
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

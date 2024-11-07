@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     private bool isGameOver = false;
     private int nextSlimeTier;
     private int upcomingSlimeTier;
-    private float spawnZoneRadius = 1.6f;         // Adjust based on your box width
+    private float spawnZoneRadius = 1.2f;         // Adjust based on your box width
     private int highScore;
     private Vector3[] slimeScales = {
         new Vector3(3f, 3f, 1), // Scale for tier 1
@@ -134,7 +134,13 @@ public class GameManager : MonoBehaviour
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
+
+    public void Exit()
+    {
+        Application.Quit();
+    }
     public void SpawnSlime(Vector3 dropPosition)
+
     {
         if (!isGameOver)
         {
